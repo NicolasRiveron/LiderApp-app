@@ -1,0 +1,219 @@
+@import "~/src/css/index.css";
+
+.MyIonContent {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: stretch;
+  max-height: 100%;
+  height: 100%;
+  background-color: var(--background-grey);
+}
+
+.MyIonInput_Login:last-of-type {
+  margin-top: 13px !important;
+}
+
+.sc-ion-input-md {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.sc-ion-input-md-h {
+  --highlight-color: none;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.error_Login {
+  text-align: center;
+  font-size: 11px;
+  height: 15px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  color: var(--error);
+}
+
+.toRegistro {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black !important;
+}
+
+.recuperarCuenta {
+  margin-top: 5px !important;
+}
+
+.auth-title,
+.form_Login,
+.auth_Login,
+.MyIonInput_Login,
+.inputContentLogin,
+.middleWidth_Login {
+  transition: ease all 1s;
+}
+
+@media (max-height: 349px) {
+  .MyIonInput_Login {
+    background-color: var(--background-light);
+    border-radius: 200px;
+    min-height: min-content !important;
+    height: 40px !important;
+    color: #5b5b5bed;
+    max-width: 100%;
+    width: 100%;
+    box-shadow: 0 2px rgb(153, 153, 153);
+    padding-inline: 20px;
+  }
+
+  .inputContentLogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .middleWidth_Login {
+    max-width: 50%;
+    width: 49%;
+  }
+}
+
+@media (min-height: 350px) {
+  .MyIonInput_Login {
+    background-color: var(--background-light);
+    border-radius: 200px;
+    min-height: min-content !important;
+    height: 50px !important;
+    color: #5b5b5bed;
+    max-width: 100%;
+    width: 100%;
+    box-shadow: 0 2px rgb(153, 153, 153);
+    padding-inline: 20px;
+  }
+}
+
+@media (min-height: 584px) {
+  .auth-title {
+    margin: 0 !important;
+    letter-spacing: 1px;
+    font-size: 28px !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 15vh !important;
+  }
+
+  .form_Login {
+    margin-top: 15vh !important;
+    width: 75%;
+  }
+
+  .auth_Login {
+    margin-top: 14vh;
+    margin-bottom: 0; 
+  }
+
+  .serverError_Login {
+    text-align: center;
+    position: relative;
+    top: 13vh;
+    height: 15px;
+    margin: 0;
+  }
+}
+
+@media (min-height: 495px) and (max-height: 583px) {
+  .auth-title {
+    margin: 0 !important;
+    letter-spacing: 1px;
+    font-size: 28px !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 8vh !important;
+  }
+  .form_Login {
+    margin-top: 15vh !important;
+    width: 75%;
+  }
+
+  .auth_Login {
+    margin-top: 11vh;
+    margin-bottom: 0;
+  }
+
+  .serverError_Login {
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    height: 15px;
+    margin: 0;
+  }
+}
+
+@media (min-height: 425px) and (max-height: 494px) {
+  .auth-title {
+    margin: 0 !important;
+    letter-spacing: 1px;
+    font-size: 28px !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 4vh !important;
+  }
+  .form_Login {
+    margin-top: 8vh !important;
+    width: 75%;
+  }
+
+  .auth_Login {
+    margin-top: 10vh;
+    margin-bottom: 0;
+  }
+
+  .serverError_Login {
+    text-align: center;
+    position: relative;
+    top: 9vh;
+    height: 15px;
+    margin: 0;
+  }
+}
+
+@media (max-height: 424px) {
+  .auth-title {
+    margin: 0 !important;
+    letter-spacing: 1px;
+    font-size: 28px !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 4vh !important;
+  }
+  .form_Login {
+    margin-top: 4vh !important;
+    width: 75%;
+  }
+
+  .auth_Login {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .serverError_Login {
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 15px;
+    margin: 0;
+    margin-bottom: 1px;
+  }
+}

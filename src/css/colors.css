@@ -1,0 +1,22 @@
+:root {
+  --primary: #ec3f25;
+  --primary-hover: #ec4025c1;
+
+  /* Text */
+  --text-light: #fff;
+  --text-grey: rgb(136, 136, 136);
+
+  /* Background */
+  --background-light: #fff;
+  --background-dark: #001b35;
+  --background-grey: #c4c4c4;
+  --background-dark-web: #16212b;
+  --background-green: #43b455;
+
+  /* Border */
+  --border-grey: #808080;
+
+  /* Status */
+  --success: #84b84c;
+  --error: #9f3a38;
+}

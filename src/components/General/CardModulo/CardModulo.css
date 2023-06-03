@@ -1,0 +1,49 @@
+@import "~/src/css/index.css";
+
+.CardModulo {
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 45%;
+}
+
+.CardModulo ion-card-content {
+  padding-inline: 20px;
+  padding-block: 12px;
+}
+
+.CardModulo ion-img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.CardModulo ion-card-title {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+  height: 15px;
+  color: var(--text-grey);
+}
+
+.CardModulo p {
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  height: 14px;
+  color: var(--text-grey);
+  margin: 0;
+}
+
+.CardModulo p:last-of-type {
+  letter-spacing: 0px;
+  font-size: 10px;
+  height: 12px;
+  color: var(--text-grey);
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.CardModulo ion-button {
+  height: 22px;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
